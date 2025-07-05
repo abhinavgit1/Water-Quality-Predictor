@@ -2,8 +2,15 @@ import pandas as pd
 import numpy as np
 import joblib
 import streamlit as st
+import os
+import gdown
 
-model = joblib.load("pollution_model.pkl")
+model_path = "pollution_model.pkl"
+if not os.path.exists(model_path):
+    url = "https://drive.google.com/uc?id=1AbCdeFgHIJKlmNoPQR"
+    gdown.download(url, model_path, quiet=False)
+
+model = joblib.load(model_path)
 model_cols = joblib.load("model_columns.pkl")
 
 st.set_page_config(page_title="Water Pollution Predictor", layout="centered")
