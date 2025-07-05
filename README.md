@@ -1,4 +1,4 @@
-# 💧 Water Pollution Predictor
+# 💧 Water Quality Predictor
 
 [![Streamlit App](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://water-quality-predictor-k5vtwj296bsqyvvtqfe92g.streamlit.app)
 [![Hugging Face Model](https://img.shields.io/badge/Model-HuggingFace-blue)](https://huggingface.co/26abhinav/pollution-model)
