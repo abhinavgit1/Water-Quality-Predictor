@@ -32,7 +32,7 @@ st.markdown(
         margin-bottom: 1em;
     }
     </style>
-    <div class="centered-title">💧 Water Pollution Predictor</div>
+    <div class="centered-title">💧 Water Quality Predictor</div>
     <div class="centered-subtitle">Enter a year and station ID to predict pollution levels and assess water quality.</div>
     """,
     unsafe_allow_html=True,
