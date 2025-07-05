@@ -13,7 +13,7 @@ model_path = hf_hub_download(
 model = joblib.load(model_path)
 model_cols = joblib.load("model_columns.pkl")
 
-st.set_page_config(page_title="Water Pollution Predictor", layout="centered")
+st.set_page_config(page_title="Water Quality Predictor", layout="centered")
 
 st.markdown(
     """
