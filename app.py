@@ -7,7 +7,7 @@ import gdown
 
 model_path = "pollution_model.pkl"
 if not os.path.exists(model_path):
-    url = "https://drive.google.com/uc?id=1AbCdeFgHIJKlmNoPQR"
+    url = "https://drive.google.com/file/d/1MCzw-rrTD4PXZc2XFER4K2qFnB9sIsAg/view?usp=sharing"
     gdown.download(url, model_path, quiet=False)
 
 model = joblib.load(model_path)
