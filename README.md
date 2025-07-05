@@ -1,6 +1,6 @@
 # 💧 Water Quality Predictor
 
-[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://water-quality-predictor-k5vtwj296bsqyvvtqfe92g.streamlit.app)
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://water-quality-predictor-axxcj6gmtnvdjh3ajq5tu5.streamlit.app)
 [![Hugging Face Model](https://img.shields.io/badge/Model-HuggingFace-blue)](https://huggingface.co/26abhinav/pollution-model)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
@@ -17,7 +17,7 @@
 
 ## 🚀 Live Demo
 
-🔗 **Try it here** → [Water Pollution Predictor (Streamlit Cloud)](https://water-quality-predictor-k5vtwj296bsqyvvtqfe92g.streamlit.app)
+🔗 **Try it here** → [Water Pollution Predictor (Streamlit Cloud)](https://water-quality-predictor-axxcj6gmtnvdjh3ajq5tu5.streamlit.app)
 
 ---
 
