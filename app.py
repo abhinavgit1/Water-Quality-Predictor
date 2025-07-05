@@ -4,11 +4,12 @@ import joblib
 import streamlit as st
 import os
 import gdown
+from huggingface_hub import hf_hub_download
 
-model_path = "pollution_model.pkl"
-if not os.path.exists(model_path):
-    url = "https://drive.google.com/file/d/1MCzw-rrTD4PXZc2XFER4K2qFnB9sIsAg/view?usp=sharing"
-    gdown.download(url, model_path, quiet=False)
+model_path = hf_hub_download(
+    repo_id="yourusername/pollution-model",
+    filename="pollution_model.pkl"
+)
 
 model = joblib.load(model_path)
 model_cols = joblib.load("model_columns.pkl")
