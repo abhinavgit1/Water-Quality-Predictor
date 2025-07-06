@@ -63,7 +63,7 @@ if st.button("🔍 Predict"):
         st.markdown("### 🧪 Predicted Pollutant Levels")
         predicted_values = {}
         for p, value in zip(pollutants, prediction):
-            st.markdown(f"**{p}**: {value:.2f}")
+            st.markdown(f"**{p}**: {value:.2f} mg/L")
             predicted_values[p] = value
 
         limits = {
